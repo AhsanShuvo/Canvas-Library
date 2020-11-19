@@ -1,0 +1,57 @@
+.canvas-lib-container {
+    height: 100%;
+    width: 100%;
+    border: black 2px solid;
+    position: relative;
+}
+
+.canvas-lib-btnArea {
+    height:100%;
+    width: 6%;
+    border-right: black 2px solid;
+    float: left;
+
+}
+
+.canvas-lib-canvas-div {
+    float: right;
+    width: 93.84%;
+    height: 100%;
+}
+
+.canvas-lib-row {
+    height: 5%;
+    margin-bottom: 6px;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+}
+
+.canvas-lib-block-left {
+    width: 45%;
+    border: 1px solid black;
+}
+
+.canvas-lib-block-right {
+    width: 45%;
+    border: 1px solid black;
+    margin-left: 4%;
+    float: right;
+}
+
+.canvas-lib-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 70%;
+    height:60%;
+}
+
+.canvas-lib-btnColumn {
+    margin-top: 10%;
+}
+
+body {
+    overflow: hidden;
+}
